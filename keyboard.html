@@ -1,0 +1,158 @@
+<!--Sedona Thomas-->
+<!--keyboard.html: uses keyboard as a virtual piano and highlights keys being played -->
+
+<!DOCTYPE html>
+<html> 
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Keyboard</title>
+        <style>
+            .main 
+            {
+                background-color: #FFFFFF;
+                padding: 10px;
+            }
+            .center 
+            {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head> 
+
+    <body bgcolor="#FFFFFF" data-gr-c-s-loaded="true" style="margin:30;padding:0">
+
+        <div class="main">
+
+            <h2 align="center">
+                <font size="6" color="black" face="TimesNewRoman">Keyboard</font>
+            </h2>
+            
+            <font size="3" color="black" face="TimesNewRoman"> 
+                <p>Click the lowest 2 rows of keys to play the keyboard.</p>
+
+                <p>Choose from the following waveforms:</p>
+                    <button id="sine">Sine</button>
+                    <button id="sawtooth">Sawtooth</button>
+                    <button id="square">Square</button>
+                    <button id="triangle">Triangle</button>
+            </font>
+
+            <br>
+
+            <p style="text-align: center;">
+                The first row of keys correspond to the following notes. 
+                The top row represents sharp notes.
+            </p>
+
+            <table class="center" border="1">
+                <tr>
+                    <th>C#/Db</th>
+                    <th>D#/Eb</th>
+                    <th></th>
+                    <th>F#/Gb</th>
+                    <th>G#/Ab</th>
+                    <th>A#/Bb</th>
+                    <th></th>
+                    <th>C#/Db</th>
+                    <th>D#/Eb</th>
+                    <th></th>
+                    <th>F#/Gb</th>
+                    <th>G#/Ab</th>
+                    <th>A#/Bb</th>
+                </tr>
+            </table>
+            
+            <br>
+                
+            <font size="30" color="black" face="TimesNewRoman"> 
+                <table class="center" border="1">
+                    <tr>
+                        <th id='83'>C</th>
+                        <th id='68'>D</th>
+                        <th id='-1' bgcolor="#000000">X</th>
+                        <th id='71'>F</th>
+                        <th id='72'>G</th>
+                        <th id='74'>A</th>
+                        <th id='-1' bgcolor="#000000">X</th>
+                        <th id='50'>C</th>
+                        <th id='51'>D</th>
+                        <th id='-1' bgcolor="#000000">X</th>
+                        <th id='53'>F</th>
+                        <th id='54'>G</th>
+                        <th id='55'>A</th>
+                    </tr>
+                </table>
+            </font>
+            <font size="30" color="black" face="TimesNewRoman"> 
+                <table class="center" border="1">
+                    <tr>
+                        <th id='90'>C</th>
+                        <th id='88'>D</th>
+                        <th id='67'>E</th>
+                        <th id='86'>F</th>
+                        <th id='66'>G</th>
+                        <th id='78'>A</th>
+                        <th id='77'>B</th>
+                        <th id='81'>C</th>
+                        <th id='87'>D</th>
+                        <th id='69'>E</th>
+                        <th id='82'>F</th>
+                        <th id='84'>G</th>
+                        <th id='89'>A</th>
+                        <th id='85'>B</th>
+                    </tr>
+                </table>
+            </font>
+            
+            <br>
+
+            <font size="30" color="black" face="TimesNewRoman"> 
+                <table class="center" border="1">
+                    <tr>
+                        <th id='.83' bgcolor="#000000">.</th>
+                        <th id='.68' bgcolor="#000000">.</th>
+                        <th id='.-1' bgcolor="#000099"><font size="30" color="#000099" face="TimesNewRoman">.</font></th>
+                        <th id='.71' bgcolor="#000000">.</th>
+                        <th id='.72' bgcolor="#000000">.</th>
+                        <th id='.74' bgcolor="#000000">.</th>
+                        <th id='.-1' bgcolor="#000099"><font size="30" color="#000099" face="TimesNewRoman">.</font></th>
+                        <th id='.50' bgcolor="#000000">.</th>
+                        <th id='.51' bgcolor="#000000">.</th>
+                        <th id='.-1' bgcolor="#000099"><font size="30" color="#000099" face="TimesNewRoman">.</font></th>
+                        <th id='.53' bgcolor="#000000">.</th>
+                        <th id='.54' bgcolor="#000000">.</th>
+                        <th id='.55' bgcolor="#000000">.</th>
+                    </tr>
+                </table>
+            </font>
+            <font size="30" color="#FFFFFF" face="TimesNewRoman"> 
+                <table class="center" border="1">
+                    <tr>
+                        <th id='.90' bgcolor="#FFFFFF">.</th>
+                        <th id='.88' bgcolor="#FFFFFF">.</th>
+                        <th id='.67' bgcolor="#FFFFFF">.</th>
+                        <th id='.86' bgcolor="#FFFFFF">.</th>
+                        <th id='.66' bgcolor="#FFFFFF">.</th>
+                        <th id='.78' bgcolor="#FFFFFF">.</th>
+                        <th id='.77' bgcolor="#FFFFFF">.</th>
+                        <th id='.81' bgcolor="#FFFFFF">.</th>
+                        <th id='.87' bgcolor="#FFFFFF">.</th>
+                        <th id='.69' bgcolor="#FFFFFF">.</th>
+                        <th id='.82' bgcolor="#FFFFFF">.</th>
+                        <th id='.84' bgcolor="#FFFFFF">.</th>
+                        <th id='.89' bgcolor="#FFFFFF">.</th>
+                        <th id='.85' bgcolor="#FFFFFF">.</th>
+                    </tr>
+                </table>
+            </font>
+        
+        </div>
+
+    </body>
+
+    <script src="keyboard.js"> </script>
+
+</html>
+
